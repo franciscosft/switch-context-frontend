@@ -1,3 +1,14 @@
 <nav class="navbar">
+    <div class="container">
+        <div class="ui-g">
+            <div class="ui-g-12">
+               <a href="javascript:;" class="navbar-toggle" (click)="exibindoMenu = !exibindoMenu"> <i class="fa fa-bars"></i></a>
+            </div>
+        </div>
+    </div>
 
+    <ul class="navbar-menu" [hidden]="!exibindoMenu">
+        <li class="navbar-menuPrincipal"> <a routerLink="">Menu</a></li>
+        <li class="navbar-menuitem"><a routerLink="/switch-context-report">Mudança de contextos</a></li>
+    </ul>
 </nav>

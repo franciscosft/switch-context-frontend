@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChangerContextComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    console.log("Tela principal")
+   }
 
   ngOnInit() {
   }
